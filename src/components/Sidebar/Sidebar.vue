@@ -31,7 +31,7 @@ const mockSidebarItems = [
 </script>
 
 <template>
-  <nav id="sidebar" class="w-60 min-h-screen absolute">
+  <nav id="sidebar" class="w-72 min-h-screen fixed">
     <Collapse v-for="item in mockSidebarItems" :menu-info="item" />
   </nav>
 </template>
