@@ -31,7 +31,18 @@ const mockSidebarItems = [
 </script>
 
 <template>
-  <nav id="sidebar" class="w-72 min-h-screen fixed">
-    <Collapse v-for="item in mockSidebarItems" :menu-info="item" />
+  <nav
+    id="sidebar"
+    class="w-72 px-4 absolute h-full flex flex-col justify-between"
+  >
+    <div>
+      <Collapse v-for="item in mockSidebarItems" :menu-info="item" />
+    </div>
+    <button
+      class="bg-green-500 flex justify-center items-center w-full rounded-full px-4 py-2 mb-8"
+    >
+      <div class="mr-2">icon</div>
+      Log out
+    </button>
   </nav>
 </template>
