@@ -4,10 +4,13 @@ import Sidebar from "./components/Sidebar/Sidebar.vue";
 </script>
 
 <template>
-  <Header />
-  <Sidebar />
-
-  <main class="bg-pink-500 ml-72">
-    <div class="w-full bg-orange-300">ddd</div>
-  </main>
+  <div class="min-h-screen flex flex-col">
+    <Header />
+    <div class="relative flex flex-grow">
+      <Sidebar />
+      <main class="bg-pink-500 ml-72 flex-1">
+        <div class="w-full bg-orange-300">ddd</div>
+      </main>
+    </div>
+  </div>
 </template>
