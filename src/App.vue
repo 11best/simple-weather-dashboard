@@ -14,7 +14,7 @@ import PollutionSection from "./components/PollutionSection.vue";
     <Header />
     <div class="relative flex flex-grow">
       <Sidebar />
-      <main class="bg-pink-500 ml-64 flex-1">
+      <main class="ml-64 flex-1 bg-[url(https://picsum.photos/id/29/1280/720)]">
         <div class="grid grid-cols-5 gap-x-4 p-8 h-full">
           <div id="left-section" class="w-full col-span-3 flex flex-col gap-4">
             <div class="h-3/6"><ImageContainer /></div>
