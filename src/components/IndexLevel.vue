@@ -40,7 +40,7 @@ const mockLevel = [
 </script>
 
 <template>
-  <div class="bg-white opacity-70 w-full h-20 rounded-lg flex">
+  <div class="bg-white opacity-80 w-full h-20 rounded-lg flex">
     <div class="bg-green-300 p-2 w-24 text-sm rounded-lg">
       title title title title
     </div>

@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="bg-white opacity-70 w-full h-full rounded-lg">
+  <div class="bg-white opacity-80 w-full h-full rounded-lg">
     <div class="bg-green-200 rounded-full w-full flex">
       <div
         class="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center"

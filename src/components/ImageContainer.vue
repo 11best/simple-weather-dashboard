@@ -1,3 +1,3 @@
 <template>
-  <div class="bg-white opacity-70 w-full h-full rounded-lg">image</div>
+  <div class="bg-white opacity-80 w-full h-full rounded-lg">image</div>
 </template>

@@ -60,7 +60,7 @@ const mockLevel = [
     <CardWithLabel v-for="item in mockWeatherConditions" :data="item" />
   </div>
   <div
-    class="w-full bg-white opacity-70 rounded-full flex justify-evenly p-2 mt-4"
+    class="w-full bg-white opacity-80 rounded-full flex justify-evenly p-2 mt-4"
   >
     <div v-for="level in mockLevel" class="flex items-center">
       <div
