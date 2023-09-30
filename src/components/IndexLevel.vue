@@ -51,11 +51,11 @@ const mockLevel = [
       >
         <div
           class="flex items-center justify-center w-8 h-8 rounded-full"
-          :style="{ backgroundColor: item.color, color: item.color }"
+          :style="{ backgroundColor: item.color }"
         >
           {{ item.icon }}
         </div>
-        <div>
+        <div :style="{ color: item.color }">
           <p>
             {{ item.title }}
           </p>
