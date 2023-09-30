@@ -6,6 +6,7 @@ import GraphContainer from "./components/GraphContainer.vue";
 import IndexLevel from "./components/IndexLevel.vue";
 import TextContainer from "./components/TextContainer.vue";
 import AqiSummary from "./components/AqiSummary.vue";
+import WeatherConditionSection from "./components/WeatherConditionSection.vue";
 </script>
 
 <template>
@@ -14,15 +15,17 @@ import AqiSummary from "./components/AqiSummary.vue";
     <div class="relative flex flex-grow">
       <Sidebar />
       <main class="bg-pink-500 ml-64 flex-1">
-        <div class="grid grid-cols-5 gap-x-4 p-4 h-full">
+        <div class="grid grid-cols-5 gap-x-4 p-8 h-full">
           <div id="left-section" class="w-full col-span-3 flex flex-col gap-4">
             <div class="h-3/6"><ImageContainer /></div>
             <div class="h-3/6"><GraphContainer /></div>
             <div class="flex items-center"><IndexLevel /></div>
           </div>
-          <div id="right-section" class="w-full col-span-2 p-4">
+          <div id="right-section" class="w-full col-span-2">
             <AqiSummary />
-            <div><TextContainer title="Real Time Weather Conditions" /></div>
+            <div class="my-4">
+              <WeatherConditionSection />
+            </div>
             <div><TextContainer title="Real Air Pollution" /></div>
           </div>
         </div>
