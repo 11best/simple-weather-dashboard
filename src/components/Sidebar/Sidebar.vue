@@ -33,7 +33,7 @@ const mockSidebarItems = [
 <template>
   <nav
     id="sidebar"
-    class="w-72 px-4 absolute h-full flex flex-col justify-between"
+    class="w-64 px-4 absolute h-full flex flex-col justify-between"
   >
     <div>
       <Collapse v-for="item in mockSidebarItems" :menu-info="item" />
