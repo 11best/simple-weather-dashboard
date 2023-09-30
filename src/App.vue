@@ -4,9 +4,9 @@ import Sidebar from "./components/Sidebar/Sidebar.vue";
 import ImageContainer from "./components/ImageContainer.vue";
 import GraphContainer from "./components/GraphContainer.vue";
 import IndexLevel from "./components/IndexLevel.vue";
-import TextContainer from "./components/TextContainer.vue";
 import AqiSummary from "./components/AqiSummary.vue";
 import WeatherConditionSection from "./components/WeatherConditionSection.vue";
+import PollutionSection from "./components/PollutionSection.vue";
 </script>
 
 <template>
@@ -26,7 +26,9 @@ import WeatherConditionSection from "./components/WeatherConditionSection.vue";
             <div class="my-4">
               <WeatherConditionSection />
             </div>
-            <div><TextContainer title="Real Air Pollution" /></div>
+            <div>
+              <PollutionSection />
+            </div>
           </div>
         </div>
       </main>

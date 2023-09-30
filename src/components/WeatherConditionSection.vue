@@ -26,7 +26,7 @@ const mockWeatherConditions = [
 
 <template>
   <TextContainer title="Real Time Weather Conditions" />
-  <div class="grid grid-cols-3 gap-4 mt-2">
+  <div class="grid grid-cols-3 gap-2 mt-2">
     <Card v-for="item in mockWeatherConditions" :data="item" />
   </div>
 </template>
